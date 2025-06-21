@@ -1,7 +1,7 @@
 import aboutImg from "../assets/about.png"
 const About = () => {
   return (
-    <div className="  mt-16">
+    <div id="about" className="  mt-16">
       <div className="flex justify-between mt-30 gap-8">
               <div className="flex-1 relative flex justify-center  w-full h-[550px] rounded-2xl bg-gradient-to-b from-main to-[#fe806488]">
                   <img className="absolute -top-14" src={aboutImg} alt="" />

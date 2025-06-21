@@ -1,16 +1,48 @@
+
+
 import logo from "../assets/logo.png"
 
 const Navbar = () => {
 
-    const links = <>
-    
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Why Us</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Testimonials</a></li>
-    
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
+  const links = (
+    <>
+      <li>
+        <a onClick={() => scrollToSection("home")} className="cursor-pointer">
+          Home
+        </a>
+      </li>
+      <li>
+        <a onClick={() => scrollToSection("about")} className="cursor-pointer">
+          About
+        </a>
+      </li>
+      <li>
+        <a onClick={() => scrollToSection("choose")} className="cursor-pointer">
+          Why Us
+        </a>
+      </li>
+      <li>
+        <a
+          onClick={() => scrollToSection("service")}
+          className="cursor-pointer"
+        >
+          Services
+        </a>
+      </li>
+      <li>
+        <a onClick={() => scrollToSection("review")} className="cursor-pointer">
+          Testimonials
+        </a>
+      </li>
     </>
+  );
 
 
   return (

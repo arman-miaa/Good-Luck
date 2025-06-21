@@ -48,7 +48,7 @@ const Review = () => {
     setCurrent((prev) => (prev - 1 + reviews.length) % reviews.length);
 
   return (
-    <div className="text-center py-16 px-4">
+    <div id="review" className="text-center py-16 px-4">
       <h2 className="text-3xl font-bold mb-10">Testimonials</h2>
 
       {/* Image Row with arrows */}

@@ -3,7 +3,7 @@ import chooseImg2 from "../assets/choose2.png";
 
 const Choose = () => {
   return (
-    <div className="mt-16">
+    <div id="choose" className="mt-16">
       <div className="relative bg-gradient-to-b from-[#FF7553] to-[#FFC0A0] w-full min-h-[600px] rounded-xl overflow-hidden p-6 md:p-12">
         {/* Top Section: Image 1 and Text */}
         <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">

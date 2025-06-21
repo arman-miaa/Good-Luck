@@ -2,7 +2,7 @@ import banner from "../assets/banner.png"
 import star from "../assets/star.png"
 const Banner = () => {
   return (
-    <div>
+    <div id="home">
       <div className="flex justify-between mt-16">
         <div>
           <h1 className=" text-6xl">

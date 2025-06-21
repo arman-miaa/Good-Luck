@@ -67,7 +67,7 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className="  mt-12">
+    <div id="service" className="  mt-12">
       <h2 className="text-3xl font-bold text-center mb-12">Services</h2>
 
       <div className="space-y-12">
