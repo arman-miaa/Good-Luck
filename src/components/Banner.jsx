@@ -9,7 +9,7 @@ const Banner = () => {
             Discover Your <br /> Future with <br />{" "}
             <span className="text-main">Astrology</span>
           </h1>
-          <button className="mt-12 cursor-pointer bg-main text-white py-2 px-3 rounded-full">
+          <button className="mt-12 font-medium cursor-pointer bg-main text-white py-2 px-3 rounded-full hover:bg-gray-300 hover:text-main">
             DownLoad Now
           </button>
         </div>
